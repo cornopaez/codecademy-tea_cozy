@@ -8,6 +8,7 @@ body {
 	font-family: Helvetica;
 	background-color: black;
 	color: seashell;
+	font-size: 22px;
 }
 
 /*Header
@@ -135,4 +136,18 @@ header ul li a {
 
 .content .locations .addresses .location-item p {
 	padding: 10px;
+}
+
+/*Contact
+---------------------------------------------*/
+
+.contact {
+	text-align: center;
+}
+
+/*Footer
+----------------------------------------------*/
+
+footer {
+	padding: 20px;
 }
