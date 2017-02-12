@@ -47,17 +47,92 @@ header ul li a {
 /*Mission
 -------------------------------------*/
 
-.mission {
+.content {
+	padding-top: 69px;
+}
+
+.content .mission {
 	display: flex;
 	height: 700px;
 	width: 1200px;
 	background: url(resources/img-mission-background.jpg);
-	margin: 69px auto 0 auto;
+	margin: 0 auto;
 	align-items: center;
 }
 
-.mission .mission-text {
+.content .mission .mission-text {
 	background-color: black;
 	width: 100%;
 	text-align: center;
+}
+
+.content .tea-of-month {
+	width: 1000px;
+	display: flex;
+	flex-direction: column;
+	margin: 50px auto;
+	text-align: center;
+}
+
+.content .tea-of-month .images {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.content .tea-of-month .images .image-item {
+	padding: 5px;
+}
+
+.content .tea-of-month .images .image-item img {
+	height:200px;
+	width:300px;
+	margin: 10px;
+}
+
+.content .tea-of-month .images .image-item h2 {
+	margin: 0;
+}
+
+/*Location
+-----------------------------------------*/
+
+.content .locations {
+	background: url(resources/img-locations-background.jpg) no-repeat;
+	height: 700px;
+	width: 1200px;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+} 
+
+.content .locations .addresses {
+	display: flex;
+}
+
+.content .locations .addresses .location-item {
+	margin: 15px 20px;
+}
+
+.content .locations h2 {
+	margin: 0;
+}
+
+.content .locations .addresses .location-item {
+	background: black;
+	width:300px;
+	text-align: center;
+	opacity: 1;
+	padding: 10px;
+}
+
+.content .locations .addresses .location-item h3 {
+	margin: 0;
+	padding: 10px;
+}
+
+.content .locations .addresses .location-item p {
+	padding: 10px;
 }
